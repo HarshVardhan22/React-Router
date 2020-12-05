@@ -36,7 +36,7 @@ const HomePage = () =>{
           {news.map((value) => (
             <div className="news">
               <h4>           
-                <a href={value.url}>{value.title}</a>
+                <a href={value.url} target="_blank" rel="noreferrer">{value.title}</a>
               </h4>
             </div>
           ))}
