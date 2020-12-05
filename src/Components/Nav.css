@@ -1,15 +1,14 @@
 .nav{
     display: flex;
-    background-color: orangered;
-    padding: 5px;
+    background-color:#1A1A1D;
+    padding: 10px;
     justify-content: space-between ;
-    color : rgb(175, 175, 175)
+   
 }
 .nav>*{
     text-decoration: none;
-    color : whitesmoke;
+    color : #C3073F;
+    font-size: x-large;
+    font-weight: bold;
 }
 
-.nav>*{
-    
-}

@@ -3,7 +3,7 @@ import './App.css';
 import Nav from "./Components/Nav";
 import About from "./Components/About";
 import HomePage from "./Components/HomePage";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 //we can use "as" if we want to customize the name of imported item
 
