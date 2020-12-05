@@ -1,6 +1,15 @@
 .nav{
     display: flex;
-    background-color: wheat;
+    background-color: orangered;
     padding: 5px;
     justify-content: space-between ;
+    color : rgb(175, 175, 175)
+}
+.nav>*{
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+.nav>*{
+    
 }

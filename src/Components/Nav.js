@@ -1,15 +1,23 @@
 import React from "react";
 import About from "./About";
-import Shop from "./Shop";
-import "./Nav.css"
+
+import "./Nav.css";
+import {Link} from "react-router-dom";
+
+//instead of using anchor tags to open a certain link we use Link which accepts one prop i.e. the address of the webpage
 
 const Navbar = () =>{
     return(
         <div className = "nav">
-            <h1>Navbar</h1>
-            <About/>
-            <Shop/>
-            <h3>Navbar Ends</h3>
+            
+            <Link to = "/">
+                <h1>InfoCenter</h1>
+            </Link>
+           
+            <Link to = "/about">
+                <h1>About</h1>
+            </Link>
+        
         </div>
         
     );
