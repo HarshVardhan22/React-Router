@@ -28,7 +28,7 @@ const Details = () =>{
 
             <h4> Date Created : { date } </h4>
 
-            <h3> <a href={ data.url } target="_blank" target="_blank"> Visit Website! </a> </h3>
+            <h3> <a href={ data.url } target="_blank" rel="noreferrer"> Visit Website! </a> </h3>
             
             <Link to = "/">
             <button> Back </button>
