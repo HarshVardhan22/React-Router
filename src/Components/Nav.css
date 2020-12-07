@@ -1,14 +1,16 @@
 .nav{
     display: flex;
-    background-color:#1A1A1D;
+    background-color: #39a24c;
     padding: 10px;
     justify-content: space-between ;
    
 }
 .nav>*{
     text-decoration: none;
-    color : #C3073F;
-    font-size: x-large;
+    color : whitesmoke;
+    font-size: xx-large;
     font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 

@@ -5,7 +5,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    border-radius: 28px;
+    background: #39a24c;
+    box-shadow:  -23px 23px 45px #205c2b, 
+             23px -23px 45px #52e86d;
     color: wheat;
     text-align: center !important;
     position: absolute;
@@ -14,14 +17,25 @@
     margin-left: -350px;
     margin-top: -250px;
     padding: 25px;
-    border-radius: 10px;  
+     
 }
 
 button{
-    padding: 3px;
-    border-radius: 5px;
+    padding: 7px;
     font-weight: bold;
     font-size: medium;
+    border-radius: 10px;
+    background: #39a24c;
+    box-shadow:  -23px 23px 45px #205c2b, 
+                 23px -23px 45px #52e86d;
+    border: none !important;
+    color: whitesmoke;
+}
+
+button:active{
+    outline: none;
+    box-shadow: inset -23px 23px 45px #205c2b, 
+   inset 23px -23px 45px #52e86d;
 }
 
 .detailsContainer a:visited{
@@ -29,6 +43,7 @@ button{
 }
 
 .detailsContainer a{
+    color: floralwhite;
     text-decoration: none;
 }
 
