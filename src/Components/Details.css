@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: darkslategrey;
+    background-color: black;
     color: wheat;
     text-align: center !important;
     position: absolute;
@@ -16,3 +16,19 @@
     padding: 25px;
     border-radius: 10px;  
 }
+
+button{
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.detailsContainer a:visited{
+    color: floralwhite;
+}
+
+.detailsContainer a{
+    text-decoration: none;
+}
+

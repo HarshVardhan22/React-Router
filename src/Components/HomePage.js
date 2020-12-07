@@ -12,6 +12,8 @@ const HomePage = () =>{
     const temp = useContext(DataContext);
 
     const setData = temp.setData;
+
+    const setDate = temp.setDate;
     
     const fetchItems = async() =>{
 
@@ -33,6 +35,13 @@ const HomePage = () =>{
     //which is in context so that i could be used in the details.js page
     const dataTransfer = (index) => {
       setData(news[index]);
+
+      //this step is to extract the date from created_at property of news object
+      
+      let date = `${news[index].created_at}`;
+      date = date.slice(0,9);
+      setDate(date);
+      
     };
 
 

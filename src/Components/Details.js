@@ -2,7 +2,9 @@ import React,{useContext} from "react";
 
 import {DataContext} from "../Context/Context";
 
-import "./Details.css"
+import "./Details.css";
+
+import {Link} from "react-router-dom";
 
 const Details = () =>{
 
@@ -10,7 +12,7 @@ const Details = () =>{
 
     const data = temp.data;
     
-    console.log()
+  const date = temp.date;
 
     // let date = data["created_at"];
 
@@ -24,10 +26,14 @@ const Details = () =>{
             
             <h3> Author : { data.author } </h3>
 
-            <h4> Date Created : { data.created_at } </h4>
+            <h4> Date Created : { date } </h4>
 
-            <h3> <a href={ data.url }> Visit Website! </a> </h3>
-
+            <h3> <a href={ data.url } > Visit Website! </a> </h3>
+            
+            <Link to = "/">
+            <button> Back </button>
+            </Link>
+            
         </div>
     );
 }
