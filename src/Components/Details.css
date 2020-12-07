@@ -1,0 +1,18 @@
+.detailsContainer{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    color: wheat;
+    text-align: center !important;
+    position: absolute;
+    top:50%;
+    left : 50%;
+    margin-left: -350px;
+    margin-top: -250px;
+    padding: 25px;
+    border-radius: 10px;  
+}
